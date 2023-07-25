@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Monoton&family=Pangolin&family=Unbounded:wght@200;500&family=Ysabeau+Infant:ital,wght@0,600;1,300&family=Ysabeau+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #293241;
+}
+img{
+    width: 45px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid cadetblue;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li {
+    margin: 10px;
+}
+header .nav-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: font-family: 'Kablammo', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Unbounded', cursive;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;;
+}
+header nav ul li a:hover{
+    color: blueviolet;
+}
+h1{
+   flex-shrink: 0; 
+   color: aliceblue;
+   width: 100%;
+   height: auto;
+   white-space: pre;
+   max-width: 100%;
+   position: relative;
+   font-weight: 400;
+   font-style: normal;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 273.416px;
+   letter-spacing: 0cm;
+   text-transform: uppercase;
+   line-height: 1;
+   text-align: center;
+   
+
+}
